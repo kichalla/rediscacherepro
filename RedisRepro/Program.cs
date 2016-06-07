@@ -32,6 +32,7 @@ namespace RedisRepro
             }
             Task.WaitAll(tasks);
 
+            Console.WriteLine("Enter any key to exit");
             Console.ReadLine();
         }
 
